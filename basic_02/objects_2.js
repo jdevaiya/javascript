@@ -55,3 +55,27 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('name'));
 
 
+const course = {
+    coursename: 'js in hindi',
+    price: 999,
+    courseInstructor: 'hitesh',
+}
+
+// course.courseInstructor = 'hitesh'
+
+const {courseInstructor: instructor} = course
+
+console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": 'jayendra',
+//     "coursename" : 'js in hindi',
+//     "price": "free",
+// }
+
+// [
+//     {},
+//     {},
+//     {},
+// ]
